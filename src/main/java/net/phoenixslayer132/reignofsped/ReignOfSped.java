@@ -2,6 +2,8 @@ package net.phoenixslayer132.reignofsped;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.phoenixslayer132.reignofsped.block.ModBlocks;
+import net.phoenixslayer132.reignofsped.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +14,8 @@ public class ReignOfSped implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }
