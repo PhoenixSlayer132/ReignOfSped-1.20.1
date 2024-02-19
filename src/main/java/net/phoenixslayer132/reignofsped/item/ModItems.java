@@ -16,6 +16,10 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item RAW_SUPERN = registerItem("raw_supern",
             new Item(new FabricItemSettings()));
+    public static final Item RAW_BLQ = registerItem("raw_blq",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_DAR = registerItem("raw_dar",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(ReignOfSped.MOD_ID, name), item);
@@ -23,6 +27,8 @@ public class ModItems {
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(RAW_PHOEN);
         entries.add(RAW_SUPERN);
+        entries.add(RAW_BLQ);
+        entries.add(RAW_DAR);
 
         entries.add(ModBlocks.RAW_PHOEN_BLOCK);
         entries.add(ModBlocks.RAW_SUPERN_BLOCK);

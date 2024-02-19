@@ -1,6 +1,9 @@
 {
   "item.reignofsped.raw_phoen": "Raw Phoen",
   "item.reignofsped.raw_supern": "Raw Supern",
+  "item.reignofsped.raw_blq": "Raw Blq",
+  "item.reignofsped.raw_dar": "Raw Dar",
 
-  "block.reignofsped.raw_phoen_block": "Block of Raw Phoen"
+  "block.reignofsped.raw_phoen_block": "Block of Raw Phoen",
+  "block.reignofsped.raw_supern_block": "Block of Raw Supern"
 }
