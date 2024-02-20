@@ -16,6 +16,18 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
     public static final Block RAW_SUPERN_BLOCK = registerBlock("raw_supern_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block RAW_BLQ_BLOCK = registerBlock("raw_blq_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block RAW_DAR_BLOCK = registerBlock("raw_dar_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block PHOEN_ORE = registerBlock("phoen_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+    public static final Block SUPERN_ORE = registerBlock("supern_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+    public static final Block BLQ_ORE = registerBlock("blq_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+    public static final Block DAR_ORE = registerBlock("dar_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItems(name, block);

@@ -1,10 +1,18 @@
 {
   "itemgroup.reign_of_sped_group": "Reign of Sped",
+
   "item.reignofsped.raw_phoen": "Raw Phoen",
   "item.reignofsped.raw_supern": "Raw Supern",
   "item.reignofsped.raw_blq": "Raw Blq",
   "item.reignofsped.raw_dar": "Raw Dar",
 
   "block.reignofsped.raw_phoen_block": "Block of Raw Phoen",
-  "block.reignofsped.raw_supern_block": "Block of Raw Supern"
+  "block.reignofsped.raw_supern_block": "Block of Raw Supern",
+  "block.reignofsped.raw_blq_block": "Block of Raw Blq",
+  "block.reignofsped.raw_dar_block": "Block of Raw Dar",
+
+  "block.reignofsped.phoen_ore": "Phoen Ore",
+  "block.reignofsped.supern_ore": "Supern Ore",
+  "block.reignofsped.blq_ore": "Blq Ore",
+  "block.reignofsped.dar_ore": "Dar Ore"
 }
