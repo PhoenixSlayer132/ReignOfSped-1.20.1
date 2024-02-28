@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reignofsped:raw_blq_block"
+    }
+  ],
+  "result": {
+    "item": "reignofsped:raw_blq",
+    "count": 9
+  }
+
+}

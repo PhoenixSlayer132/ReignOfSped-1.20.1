@@ -14,5 +14,14 @@
   "block.reignofsped.phoen_ore": "Phoen Ore",
   "block.reignofsped.supern_ore": "Supern Ore",
   "block.reignofsped.blq_ore": "Blq Ore",
-  "block.reignofsped.dar_ore": "Dar Ore"
+  "block.reignofsped.dar_ore": "Dar Ore",
+
+  "block.reignofsped.lammoth_planks": "Lammoth Planks",
+  "block.reignofsped.lammoth_wood": "Lammoth Wood",
+  "block.reignofsped.lammoth_log": "Lammoth Log",
+  "block.reignofsped.stripped_lammoth_wood": "Stripped Lammoth Wood",
+  "block.reignofsped.stripped_lammoth_log": "Stripped Lammoth Log",
+  "block.reignofsped.lammoth_leaves": "Lammoth Leaves",
+  "block.reignofsped.lammoth_sapling": "Lammoth Sapling",
+  "block.reignofsped.lammoth_stick": "Lammoth Stick"
 }

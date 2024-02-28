@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.phoenixslayer132.reignofsped.ReignOfSped;
 import net.phoenixslayer132.reignofsped.block.ModBlocks;
+import net.phoenixslayer132.reignofsped.item.custom.LammothStakeItem;
 
 public class ModItems {
     public static final Item RAW_PHOEN = registerItem("raw_phoen",
@@ -20,6 +21,10 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item RAW_DAR = registerItem("raw_dar",
             new Item(new FabricItemSettings()));
+    public static final Item LAMMOTH_STICK = registerItem("lammoth_stick",
+            new Item(new FabricItemSettings()));
+    public static final Item LAMMOTH_STAKE = registerItem("lammoth_stake",
+            new LammothStakeItem(new FabricItemSettings().maxDamage(10)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(ReignOfSped.MOD_ID, name), item);

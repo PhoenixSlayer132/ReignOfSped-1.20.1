@@ -24,24 +24,46 @@ public class ModItemGroup {
                         //Raw Blocks
                         entries.add(ModBlocks.RAW_PHOEN_BLOCK);
                         entries.add(ModBlocks.RAW_SUPERN_BLOCK);
+                        entries.add(ModBlocks.RAW_BLQ_BLOCK);
+                        entries.add(ModBlocks.RAW_DAR_BLOCK);
 
                         //Ores
-
+                        entries.add(ModBlocks.PHOEN_ORE);
+                        entries.add(ModBlocks.SUPERN_ORE);
+                        entries.add(ModBlocks.BLQ_ORE);
+                        entries.add(ModBlocks.DAR_ORE);
 
                         //Ingots
-
+                        /*
+                        entries.add(ModItems.PHOENGOT);
+                        entries.add(ModItems.SUPERNGOT);
+                        entries.add(ModItems.BLQGOT);
+                        entries.add(ModItems.DARGOT);
+                        */
 
                         //Ingot Blocks
-
-
+                        /*
+                        entries.add(ModBlocks.PHOEN_BLOCK);
+                        entries.add(ModBlocks.SUPERN_BLOCK);
+                        entries.add(ModBlocks.BLQ_BLOCK);
+                        entries.add(ModBlocks.DAR_BLOCK);
+                        */
 
                         //Wood
+                        entries.add(ModItems.LAMMOTH_STICK);
+                        entries.add(ModBlocks.LAMMOTH_PLANKS);
+                        entries.add(ModBlocks.LAMMOTH_WOOD);
+                        entries.add(ModBlocks.LAMMOTH_LOG);
+                        entries.add(ModBlocks.STRIPPED_LAMMOTH_WOOD);
+                        entries.add(ModBlocks.STRIPPED_LAMMOTH_LOG);
+                        entries.add(ModBlocks.LAMMOTH_LEAVES);
+                        //entries.add(ModBlocks.LAMMOTH_SAPLING);
+
+                        entries.add(ModItems.LAMMOTH_STAKE);
 
 
-
-                        //
                     }).build());
     public static void registerItemGroups() {
-        
+
     }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "reignofsped:lammoth_stick"
+    }
+  },
+  "result": {
+    "item": "reignofsped:lammoth_stake"
+  }
+}
