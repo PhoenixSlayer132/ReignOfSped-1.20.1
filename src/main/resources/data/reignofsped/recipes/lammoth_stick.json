@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "reignofsped:lammoth_planks"
+    }
+  },
+  "result": {
+    "item": "reignofsped:lammoth_stick",
+    "count": 2
+  }
+}

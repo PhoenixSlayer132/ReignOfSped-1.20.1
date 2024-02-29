@@ -23,5 +23,6 @@
   "block.reignofsped.stripped_lammoth_log": "Stripped Lammoth Log",
   "block.reignofsped.lammoth_leaves": "Lammoth Leaves",
   "block.reignofsped.lammoth_sapling": "Lammoth Sapling",
-  "block.reignofsped.lammoth_stick": "Lammoth Stick"
+  "item.reignofsped.lammoth_stick": "Lammoth Stick",
+  "item.reignofsped.lammoth_stake": "Lammoth Stake"
 }
