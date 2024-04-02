@@ -59,7 +59,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.LAMMOTH_LEAVES);
                         //entries.add(ModBlocks.LAMMOTH_SAPLING);
 
+                        //Custom items
                         entries.add(ModItems.LAMMOTH_STAKE);
+                        entries.add(ModItems.LAMMOTH_TEST_ITEM);
 
 
                     }).build());

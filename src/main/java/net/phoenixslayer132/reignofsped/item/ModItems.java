@@ -11,6 +11,8 @@ import net.minecraft.util.Identifier;
 import net.phoenixslayer132.reignofsped.ReignOfSped;
 import net.phoenixslayer132.reignofsped.block.ModBlocks;
 import net.phoenixslayer132.reignofsped.item.custom.LammothStakeItem;
+import net.phoenixslayer132.reignofsped.item.custom.LammothTestItem;
+import net.phoenixslayer132.reignofsped.item.custom.ModFoodComponents;
 
 public class ModItems {
     public static final Item RAW_PHOEN = registerItem("raw_phoen",
@@ -25,6 +27,12 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item LAMMOTH_STAKE = registerItem("lammoth_stake",
             new LammothStakeItem(new FabricItemSettings().maxDamage(10)));
+    public static final Item LAMMOTH_TEST_ITEM = registerItem("lammoth_test_item",
+            new LammothTestItem(new FabricItemSettings().maxDamage(9999).maxCount(999)));
+    public static final Item PHOEN_CARROT = registerItem("phoen_carrot",
+            new Item(new FabricItemSettings().food(ModFoodComponents.PHOEN_CARROT)));
+
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(ReignOfSped.MOD_ID, name), item);
@@ -48,6 +56,8 @@ public class ModItems {
         entries.add(ModBlocks.BLQ_ORE);
         entries.add(ModBlocks.DAR_ORE);
 
+        //foods
+        entries.add(ModItems.PHOEN_CARROT);
     }
     public static void registerModItems() {
         ReignOfSped.LOGGER.info("Registering Mod Items for " + ReignOfSped.MOD_ID);
