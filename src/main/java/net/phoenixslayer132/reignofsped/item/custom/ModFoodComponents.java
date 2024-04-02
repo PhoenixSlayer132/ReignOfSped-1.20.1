@@ -6,11 +6,12 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
-    public static final FoodComponent PHOEN_CARROT = new FoodComponent.Builder().hunger(20).saturationModifier(1.4f).alwaysEdible().snack()
-            .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,20000, 0), 1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20000, 3), 1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 10, 1), 0.02f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 20000, 3), 1.0f)
+    public static final FoodComponent GOLDEN_BAMBOO = new FoodComponent.Builder().hunger(20).saturationModifier(1.4f).alwaysEdible().snack()
+            .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE,24000, 1), 1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 24000, 3), 1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 6000, 0), 0.0002f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 6000, 5), 0.0002f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 24000, 2), 1.0f)
             .build();
 
 

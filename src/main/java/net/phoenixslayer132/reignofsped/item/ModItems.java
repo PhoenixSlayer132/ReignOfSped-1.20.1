@@ -28,9 +28,9 @@ public class ModItems {
     public static final Item LAMMOTH_STAKE = registerItem("lammoth_stake",
             new LammothStakeItem(new FabricItemSettings().maxDamage(10)));
     public static final Item LAMMOTH_TEST_ITEM = registerItem("lammoth_test_item",
-            new LammothTestItem(new FabricItemSettings().maxDamage(9999).maxCount(999)));
-    public static final Item PHOEN_CARROT = registerItem("phoen_carrot",
-            new Item(new FabricItemSettings().food(ModFoodComponents.PHOEN_CARROT)));
+            new LammothTestItem(new FabricItemSettings().maxCount(999)));
+    public static final Item GOLDEN_BAMBOO = registerItem("golden_bamboo",
+            new Item(new FabricItemSettings().food(ModFoodComponents.GOLDEN_BAMBOO)));
 
 
 
@@ -57,7 +57,7 @@ public class ModItems {
         entries.add(ModBlocks.DAR_ORE);
 
         //foods
-        entries.add(ModItems.PHOEN_CARROT);
+        entries.add(ModItems.GOLDEN_BAMBOO);
     }
     public static void registerModItems() {
         ReignOfSped.LOGGER.info("Registering Mod Items for " + ReignOfSped.MOD_ID);

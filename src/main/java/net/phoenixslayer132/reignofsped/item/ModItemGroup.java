@@ -63,6 +63,9 @@ public class ModItemGroup {
                         entries.add(ModItems.LAMMOTH_STAKE);
                         entries.add(ModItems.LAMMOTH_TEST_ITEM);
 
+                        //Custom foods
+                        entries.add(ModItems.GOLDEN_BAMBOO);
+
 
                     }).build());
     public static void registerItemGroups() {
