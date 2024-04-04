@@ -35,10 +35,10 @@ public class ModItemGroup {
 
                         //Ingots
                         /*
-                        entries.add(ModItems.PHOENGOT);
-                        entries.add(ModItems.SUPERNGOT);
-                        entries.add(ModItems.BLQGOT);
-                        entries.add(ModItems.DARGOT);
+                        entries.add(ModItems.PHOEN_INGOT);
+                        entries.add(ModItems.SUPERN_INGOT);
+                        entries.add(ModItems.BLQ_INGOT);
+                        entries.add(ModItems.DAR_INGOT);
                         */
 
                         //Ingot Blocks
@@ -65,6 +65,13 @@ public class ModItemGroup {
 
                         //Custom foods
                         entries.add(ModItems.GOLDEN_BAMBOO);
+                        entries.add(ModItems.CHICKEN_TENDERS);
+                        entries.add(ModItems.CHICKEN_SANDWICH);
+                        entries.add(ModItems.CHICKEN_BUCKET);
+                        entries.add(ModItems.CATFISH);
+                        entries.add(ModItems.COOKED_CATFISH);
+                        entries.add(ModItems.FRIED_CATFISH);
+                        entries.add(ModItems.SUPERN_CATFISH);
 
 
                     }).build());

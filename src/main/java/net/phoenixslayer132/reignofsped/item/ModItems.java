@@ -31,6 +31,20 @@ public class ModItems {
             new LammothTestItem(new FabricItemSettings().maxCount(999)));
     public static final Item GOLDEN_BAMBOO = registerItem("golden_bamboo",
             new Item(new FabricItemSettings().food(ModFoodComponents.GOLDEN_BAMBOO)));
+    public static final Item CHICKEN_TENDERS = registerItem("chicken_tenders",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CHICKEN_TENDERS)));
+    public static final Item CHICKEN_SANDWICH = registerItem("chicken_sandwich",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CHICKEN_SANDWICH)));
+    public static final Item CHICKEN_BUCKET = registerItem("chicken_bucket",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CHICKEN_BUCKET)));
+    public static final Item CATFISH = registerItem("catfish",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CATFISH)));
+    public static final Item COOKED_CATFISH = registerItem("cooked_catfish",
+            new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_CATFISH)));
+    public static final Item FRIED_CATFISH = registerItem("fried_catfish",
+            new Item(new FabricItemSettings().food(ModFoodComponents.FRIED_CATFISH)));
+    public static final Item SUPERN_CATFISH = registerItem("supern_catfish",
+            new Item(new FabricItemSettings().food(ModFoodComponents.SUPERN_CATFISH)));
 
 
 
@@ -58,6 +72,13 @@ public class ModItems {
 
         //foods
         entries.add(ModItems.GOLDEN_BAMBOO);
+        entries.add(ModItems.CHICKEN_TENDERS);
+        entries.add(ModItems.CHICKEN_SANDWICH);
+        entries.add(ModItems.CHICKEN_BUCKET);
+        entries.add(ModItems.CATFISH);
+        entries.add(ModItems.COOKED_CATFISH);
+        entries.add(ModItems.FRIED_CATFISH);
+        entries.add(ModItems.SUPERN_CATFISH);
     }
     public static void registerModItems() {
         ReignOfSped.LOGGER.info("Registering Mod Items for " + ReignOfSped.MOD_ID);
