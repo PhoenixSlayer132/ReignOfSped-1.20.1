@@ -11,8 +11,9 @@ import net.minecraft.util.Identifier;
 import net.phoenixslayer132.reignofsped.ReignOfSped;
 import net.phoenixslayer132.reignofsped.block.ModBlocks;
 import net.phoenixslayer132.reignofsped.item.custom.LammothStakeItem;
-import net.phoenixslayer132.reignofsped.item.custom.LammothTestItem;
+import net.phoenixslayer132.reignofsped.item.custom.GraciousAmuletItem;
 import net.phoenixslayer132.reignofsped.item.custom.ModFoodComponents;
+import net.phoenixslayer132.reignofsped.item.custom.UnknownItem;
 
 public class ModItems {
     public static final Item RAW_PHOEN = registerItem("raw_phoen",
@@ -23,12 +24,20 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item RAW_DAR = registerItem("raw_dar",
             new Item(new FabricItemSettings()));
+
+
     public static final Item LAMMOTH_STICK = registerItem("lammoth_stick",
             new Item(new FabricItemSettings()));
+
+
     public static final Item LAMMOTH_STAKE = registerItem("lammoth_stake",
             new LammothStakeItem(new FabricItemSettings().maxDamage(10)));
-    public static final Item LAMMOTH_TEST_ITEM = registerItem("lammoth_test_item",
-            new LammothTestItem(new FabricItemSettings().maxCount(999)));
+    public static final Item GRACIOUS_AMULET_ITEM = registerItem("gracious_amulet_item",
+            new GraciousAmuletItem(new FabricItemSettings().maxDamage(999)));
+    public static final Item UNKNOWN_ITEM = registerItem("unknown_item",
+            new UnknownItem(new FabricItemSettings().fireproof()));
+
+
     public static final Item GOLDEN_BAMBOO = registerItem("golden_bamboo",
             new Item(new FabricItemSettings().food(ModFoodComponents.GOLDEN_BAMBOO)));
     public static final Item CHICKEN_TENDERS = registerItem("chicken_tenders",
@@ -37,6 +46,8 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.CHICKEN_SANDWICH)));
     public static final Item CHICKEN_BUCKET = registerItem("chicken_bucket",
             new Item(new FabricItemSettings().food(ModFoodComponents.CHICKEN_BUCKET)));
+
+
     public static final Item CATFISH = registerItem("catfish",
             new Item(new FabricItemSettings().food(ModFoodComponents.CATFISH)));
     public static final Item COOKED_CATFISH = registerItem("cooked_catfish",

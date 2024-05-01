@@ -61,7 +61,7 @@ public class ModItemGroup {
 
                         //Custom items
                         entries.add(ModItems.LAMMOTH_STAKE);
-                        entries.add(ModItems.LAMMOTH_TEST_ITEM);
+                        entries.add(ModItems.GRACIOUS_AMULET_ITEM);
 
                         //Custom foods
                         entries.add(ModItems.GOLDEN_BAMBOO);
