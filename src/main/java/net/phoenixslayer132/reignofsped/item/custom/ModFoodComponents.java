@@ -15,11 +15,11 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent CHICKEN_TENDERS = new FoodComponent.Builder().hunger(8).saturationModifier(0.9f).meat()
-            .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 6000, 0), 0.3f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 60, 0), 0.1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 0), 1.0f)
             .build();
 
-    public static final FoodComponent CHICKEN_SANDWICH = new FoodComponent.Builder().hunger(10).saturationModifier(1.0f)
+    public static final FoodComponent CHICKEN_SANDWICH = new FoodComponent.Builder().hunger(10).saturationModifier(1.0f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 600, 0), 0.3f)
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 60, 0), 0.1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 600, 1), 1.0f)

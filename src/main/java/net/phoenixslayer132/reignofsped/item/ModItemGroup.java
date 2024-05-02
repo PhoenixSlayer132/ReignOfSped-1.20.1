@@ -59,9 +59,10 @@ public class ModItemGroup {
                         entries.add(ModBlocks.LAMMOTH_LEAVES);
                         //entries.add(ModBlocks.LAMMOTH_SAPLING);
 
-                        //Custom items
+                        //Custom items >;3
                         entries.add(ModItems.LAMMOTH_STAKE);
                         entries.add(ModItems.GRACIOUS_AMULET_ITEM);
+                        entries.add(ModItems.UNKNOWN_ITEM);
 
                         //Custom foods
                         entries.add(ModItems.GOLDEN_BAMBOO);
