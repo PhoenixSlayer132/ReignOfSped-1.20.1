@@ -7,6 +7,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
@@ -29,10 +30,21 @@ public class GraciousAmuletItem extends Item {
             PlayerEntity player = context.getPlayer();
 
             if (blockState.isOf(Blocks.RED_SANDSTONE)) {
-                context.getPlayer().addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 999999999, 1, true, false, false));
-                player.addExperience(-5345); //50 levels
-                context.getStack().damage(9, context.getPlayer(), playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
-                player.getItemCooldownManager().set(this, 999);
+                if (player.isCreative()){
+                    context.getPlayer().addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 999999999, 1, true, false, true));
+                }
+                else if (player.experienceLevel >= 50) {
+                    player.addExperience(-5345); //50 levels
+                    context.getPlayer().addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 999999999, 1, true, false, false));
+                    context.getStack().damage(9, context.getPlayer(), playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
+                    player.getItemCooldownManager().set(this, 999);
+                    player.sendMessage(Text.literal("You understand its hidden use.. you bring it closer to the block and shave a bit of it on the Amulet."));
+                    player.sendMessage(Text.literal("It releases a blinding light that pierces into your eyes, after checking yourself you realize you can see into the night."));
+                }
+                else {
+                    player.sendMessage(Text.literal("You sense a hidden reaction coming from the Amulet, its as if it has a strange connection with this block.."));
+                    player.sendMessage(Text.literal("However you do not seem to have enough wisdom to understand how to use it."));
+                    }
             }
         }
         return super.useOnBlock(context);
