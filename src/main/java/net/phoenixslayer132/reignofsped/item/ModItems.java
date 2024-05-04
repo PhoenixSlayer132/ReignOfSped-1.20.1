@@ -10,10 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.phoenixslayer132.reignofsped.ReignOfSped;
 import net.phoenixslayer132.reignofsped.block.ModBlocks;
-import net.phoenixslayer132.reignofsped.item.custom.LammothStakeItem;
-import net.phoenixslayer132.reignofsped.item.custom.GraciousAmuletItem;
-import net.phoenixslayer132.reignofsped.item.custom.ModFoodComponents;
-import net.phoenixslayer132.reignofsped.item.custom.UnknownItem;
+import net.phoenixslayer132.reignofsped.item.custom.*;
 
 public class ModItems {
     public static final Item RAW_PHOEN = registerItem("raw_phoen",
@@ -36,6 +33,8 @@ public class ModItems {
             new GraciousAmuletItem(new FabricItemSettings().maxDamage(999)));
     public static final Item UNKNOWN_ITEM = registerItem("unknown_item",
             new UnknownItem(new FabricItemSettings().fireproof()));
+    public static final Item RESTORATION_SCROLL_ITEM = registerItem("restoration_scroll_item",
+            new RestorationScrollItem(new FabricItemSettings().maxCount(8)));
 
 
     public static final Item GOLDEN_BAMBOO = registerItem("golden_bamboo",

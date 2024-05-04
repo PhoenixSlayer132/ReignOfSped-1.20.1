@@ -63,6 +63,7 @@ public class ModItemGroup {
                         entries.add(ModItems.LAMMOTH_STAKE);
                         entries.add(ModItems.GRACIOUS_AMULET_ITEM);
                         entries.add(ModItems.UNKNOWN_ITEM);
+                        entries.add(ModItems.RESTORATION_SCROLL_ITEM);
 
                         //Custom foods
                         entries.add(ModItems.GOLDEN_BAMBOO);
