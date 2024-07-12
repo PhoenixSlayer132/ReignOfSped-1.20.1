@@ -1,0 +1,9 @@
+// 1.20.1	2024-07-12T04:44:38.7260098	ReignOfSped/Tags for minecraft:block
+8149829eb0ccf7592f8a9ecf8e7a79a81c129d67 data\minecraft\tags\blocks\logs_that_burn.json
+907c780c5d691518382d5ba5e6b1ab97ee46b1b2 data\reignofsped\tags\blocks\dar_ore_block.json
+889caf29b098e44dcfab2e9abcfc715e84961db7 data\minecraft\tags\blocks\mineable\pickaxe.json
+4073f4e28b6481bdb1831dd672c15627063714e8 data\reignofsped\tags\blocks\supern_ore_block.json
+8394d2070f63903296449bd8c19a946b0939efdb data\minecraft\tags\blocks\needs_iron_tool.json
+0bb0ab772df9e5b894dbe30de81f691dbe07d4ba data\reignofsped\tags\blocks\blq_ore_block.json
+889caf29b098e44dcfab2e9abcfc715e84961db7 data\fabric\tags\blocks\needs_tool_level_4.json
+9fef99aa152f5def3e1ab187c586c4dca3f0185a data\reignofsped\tags\blocks\phoen_ore_block.json

@@ -29,6 +29,7 @@
   "item.reignofsped.gracious_amulet_item": "Gracious Amulet",
   "item.reignofsped.unknown_item": "Unknown Item",
   "item.reignofsped.restoration_scroll_item": "Restoration Scroll",
+  "item.reignofsped.linyurds_runes_item": "Linyurd's Runes",
 
   "item.reignofsped.phoen_carrot": "Phoen Carrot",
   "item.reignofsped.bird_feed": "Bird Feed",
@@ -45,5 +46,11 @@
   "item.reignofsped.supern_catfish": "Supern Catfish",
 
   "item.reignofsped.imitation_crab_rangoon": "Imitation Crab Rangoon",
-  "item.reignofsped.fent_laced_rangoon": "Fent Laced Rangoon"
+  "item.reignofsped.fent_laced_rangoon": "Fent Laced Rangoon",
+
+  "tooltip.reignofsped.gracious_amulet_item.tooltip.shift": "It seems to have a connection with the Badlands in someway.",
+  "tooltip.reignofsped.gracious_amulet_item.tooltip": "Shift Right-Clicking with this item heals the player with added bonuses.",
+
+  "key.category.reignofsped.reignofsped": "Reign of Sped Mod Keys",
+  "key.category.reignofsped.gracious_amulet_ability": "Gracious Amulet Ability"
 }

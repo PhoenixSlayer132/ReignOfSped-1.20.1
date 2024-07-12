@@ -1,7 +1,0 @@
-{
-  "parent":"block/cube_column",
-  "textures": {
-    "end": "reignofsped:block/lammoth_log_top",
-    "side": "reignofsped:block/lammoth_log"
-  }
-}

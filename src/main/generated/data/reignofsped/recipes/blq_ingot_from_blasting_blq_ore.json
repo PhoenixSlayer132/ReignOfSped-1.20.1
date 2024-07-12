@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2.0,
+  "group": "Reign Of Sped",
+  "ingredient": {
+    "item": "reignofsped:blq_ore"
+  },
+  "result": "reignofsped:blq_ingot"
+}

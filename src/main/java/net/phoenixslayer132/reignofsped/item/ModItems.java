@@ -11,6 +11,11 @@ import net.minecraft.util.Identifier;
 import net.phoenixslayer132.reignofsped.ReignOfSped;
 import net.phoenixslayer132.reignofsped.block.ModBlocks;
 import net.phoenixslayer132.reignofsped.item.custom.*;
+import net.phoenixslayer132.reignofsped.item.custom.items.artifacts.GraciousAmuletItem;
+import net.phoenixslayer132.reignofsped.item.custom.items.artifacts.UnknownItem;
+import net.phoenixslayer132.reignofsped.item.custom.items.misc.LammothStakeItem;
+import net.phoenixslayer132.reignofsped.item.custom.items.runes.LinyurdsRunesItem;
+import net.phoenixslayer132.reignofsped.item.custom.items.scrolls.RestorationScrollItem;
 
 public class ModItems {
     public static final Item RAW_PHOEN = registerItem("raw_phoen",
@@ -20,6 +25,15 @@ public class ModItems {
     public static final Item RAW_BLQ = registerItem("raw_blq",
             new Item(new FabricItemSettings()));
     public static final Item RAW_DAR = registerItem("raw_dar",
+            new Item(new FabricItemSettings()));
+
+    public static final Item PHOEN_INGOT = registerItem("phoen_ingot",
+            new Item(new FabricItemSettings()));
+    public static final Item SUPERN_INGOT = registerItem("supern_ingot",
+            new Item(new FabricItemSettings()));
+    public static final Item BLQ_INGOT = registerItem("blq_ingot",
+            new Item(new FabricItemSettings()));
+    public static final Item DAR_INGOT = registerItem("dar_ingot",
             new Item(new FabricItemSettings()));
 
 
@@ -32,9 +46,11 @@ public class ModItems {
     public static final Item GRACIOUS_AMULET_ITEM = registerItem("gracious_amulet_item",
             new GraciousAmuletItem(new FabricItemSettings().maxDamage(999)));
     public static final Item UNKNOWN_ITEM = registerItem("unknown_item",
-            new UnknownItem(new FabricItemSettings().fireproof()));
+            new UnknownItem(new FabricItemSettings().fireproof().maxDamage(1)));
     public static final Item RESTORATION_SCROLL_ITEM = registerItem("restoration_scroll_item",
             new RestorationScrollItem(new FabricItemSettings().maxCount(8)));
+    public static final Item LINYURDS_RUNES_ITEM = registerItem("linyurds_runes_item",
+            new LinyurdsRunesItem(new FabricItemSettings().maxDamage(256)));
 
 
     public static final Item GOLDEN_BAMBOO = registerItem("golden_bamboo",
@@ -79,6 +95,12 @@ public class ModItems {
         entries.add(ModBlocks.SUPERN_ORE);
         entries.add(ModBlocks.BLQ_ORE);
         entries.add(ModBlocks.DAR_ORE);
+
+        //ingot
+        entries.add(ModItems.PHOEN_INGOT);
+        entries.add(ModItems.SUPERN_INGOT);
+        entries.add(ModItems.BLQ_INGOT);
+        entries.add(ModItems.DAR_INGOT);
 
         //foods
         entries.add(ModItems.GOLDEN_BAMBOO);

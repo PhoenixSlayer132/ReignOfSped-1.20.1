@@ -6,6 +6,7 @@ import net.phoenixslayer132.reignofsped.block.ModBlocks;
 import net.phoenixslayer132.reignofsped.item.ModItemGroup;
 import net.phoenixslayer132.reignofsped.item.ModItems;
 import net.phoenixslayer132.reignofsped.util.ModRegistries;
+import net.phoenixslayer132.reignofsped.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,6 @@ public class ReignOfSped implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModRegistries.registerROSThings();
+		ModWorldGeneration.generateModWorldGeneration();
 	}
 }

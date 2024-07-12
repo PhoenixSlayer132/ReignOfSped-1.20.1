@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.phoenixslayer132.reignofsped.ReignOfSped;
+import net.phoenixslayer132.reignofsped.world.tree.LammothSaplingGenerator;
 
 public class ModBlocks {
     public static final Block RAW_PHOEN_BLOCK = registerBlock("raw_phoen_block",
@@ -21,23 +22,30 @@ public class ModBlocks {
     public static final Block RAW_DAR_BLOCK = registerBlock("raw_dar_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
 
+    public static final Block PHOEN_BLOCK = registerBlock("phoen_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block SUPERN_BLOCK = registerBlock("supern_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block BLQ_BLOCK = registerBlock("blq_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+    public static final Block DAR_BLOCK = registerBlock("dar_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+
     public static final Block PHOEN_ORE = registerBlock("phoen_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(6, 9), FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.MAGMA_BLOCK)));
     public static final Block SUPERN_ORE = registerBlock("supern_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(6, 9), FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block BLQ_ORE = registerBlock("blq_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(6, 9), FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.PRISMARINE)));
     public static final Block DAR_ORE = registerBlock("dar_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(6, 9), FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
 
     public static final Block LAMMOTH_PLANKS = registerBlock("lammoth_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS)));
     public static final Block LAMMOTH_LEAVES = registerBlock("lammoth_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_LEAVES)));
-    /*
-    public static final Block LAMMOTH_SAPLING = registerBlock("lammoth_sapling",
-            new SaplingBlock(new SaplingGenerator(), FabricBlockSettings.(Blocks.DARK_OAK_SAPLING)));
-            */
+
+
     public static final Block LAMMOTH_LOG = registerBlock("lammoth_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_LOG)));
     public static final Block LAMMOTH_WOOD = registerBlock("lammoth_wood",
@@ -46,6 +54,9 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_DARK_OAK_LOG)));
     public static final Block STRIPPED_LAMMOTH_WOOD = registerBlock("stripped_lammoth_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_DARK_OAK_WOOD)));
+
+    public static final Block LAMMOTH_SAPLING = registerBlock("lammoth_sapling",
+            new SaplingBlock(new LammothSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItems(name, block);

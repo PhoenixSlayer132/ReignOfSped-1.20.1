@@ -34,20 +34,17 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DAR_ORE);
 
                         //Ingots
-                        /*
                         entries.add(ModItems.PHOEN_INGOT);
                         entries.add(ModItems.SUPERN_INGOT);
                         entries.add(ModItems.BLQ_INGOT);
                         entries.add(ModItems.DAR_INGOT);
-                        */
+
 
                         //Ingot Blocks
-                        /*
                         entries.add(ModBlocks.PHOEN_BLOCK);
                         entries.add(ModBlocks.SUPERN_BLOCK);
                         entries.add(ModBlocks.BLQ_BLOCK);
                         entries.add(ModBlocks.DAR_BLOCK);
-                        */
 
                         //Wood
                         entries.add(ModItems.LAMMOTH_STICK);
@@ -57,13 +54,14 @@ public class ModItemGroup {
                         entries.add(ModBlocks.STRIPPED_LAMMOTH_WOOD);
                         entries.add(ModBlocks.STRIPPED_LAMMOTH_LOG);
                         entries.add(ModBlocks.LAMMOTH_LEAVES);
-                        //entries.add(ModBlocks.LAMMOTH_SAPLING);
+                        entries.add(ModBlocks.LAMMOTH_SAPLING);
 
                         //Custom items >;3
                         entries.add(ModItems.LAMMOTH_STAKE);
                         entries.add(ModItems.GRACIOUS_AMULET_ITEM);
                         entries.add(ModItems.UNKNOWN_ITEM);
                         entries.add(ModItems.RESTORATION_SCROLL_ITEM);
+                        entries.add(ModItems.LINYURDS_RUNES_ITEM);
 
                         //Custom foods
                         entries.add(ModItems.GOLDEN_BAMBOO);
