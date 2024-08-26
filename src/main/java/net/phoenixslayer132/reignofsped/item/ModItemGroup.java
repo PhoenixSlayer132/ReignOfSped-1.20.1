@@ -56,11 +56,17 @@ public class ModItemGroup {
                         entries.add(ModBlocks.LAMMOTH_LEAVES);
                         entries.add(ModBlocks.LAMMOTH_SAPLING);
 
-                        //Custom items >;3
+                        //Custom items; misc >;3
                         entries.add(ModItems.LAMMOTH_STAKE);
+
+                        //Custom items; artifacts >;3
                         entries.add(ModItems.GRACIOUS_AMULET_ITEM);
                         entries.add(ModItems.UNKNOWN_ITEM);
+
+                        //Custom items; scrolls >;3
                         entries.add(ModItems.RESTORATION_SCROLL_ITEM);
+
+                        //Custom items; runes >;3
                         entries.add(ModItems.LINYURDS_RUNES_ITEM);
 
                         //Custom foods
@@ -72,6 +78,11 @@ public class ModItemGroup {
                         entries.add(ModItems.COOKED_CATFISH);
                         entries.add(ModItems.FRIED_CATFISH);
                         entries.add(ModItems.SUPERN_CATFISH);
+
+                        //Custom blocks; runes >;3
+                        entries.add(ModBlocks.LINYURDS_RUNES_BLOCK);
+
+                        //Custom blocks; misc >;3
 
 
                     }).build());

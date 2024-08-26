@@ -31,18 +31,18 @@ public class LammothStakeItem extends Item{
             if(blockState.getBlock() == Blocks.FARMLAND){
                 int moistureLvl = blockState.get(MOISTURE);
                 PlayerEntity player = context.getPlayer();
-                player.sendMessage(Text.literal("This farmland's moisture is at " + moistureLvl + "."));
+                player.sendMessage(Text.literal("This farmland's moisture is at " + moistureLvl + "."), true);
                 context.getStack().damage(1, context.getPlayer(), playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
             }
             else{
                 if(context.getWorld().hasRain(abovePositionClicked)){
                     PlayerEntity player = context.getPlayer();
-                    player.sendMessage(Text.literal("This block has rain above it."));
+                    player.sendMessage(Text.literal("This block has rain above it."), true);
                     context.getStack().damage(1, context.getPlayer(), playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
 
                 } else if (!context.getWorld().hasRain(abovePositionClicked)) {
                     PlayerEntity player = context.getPlayer();
-                    player.sendMessage(Text.literal("This block does not have rain above it."));
+                    player.sendMessage(Text.literal("This block does not have rain above it."), true);
                     context.getStack().damage(1, context.getPlayer(), playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
                 }
             }

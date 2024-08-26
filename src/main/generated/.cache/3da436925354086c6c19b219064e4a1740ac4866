@@ -1,9 +1,9 @@
-// 1.20.1	2024-07-12T04:44:38.7274766	ReignOfSped/Recipes
+// 1.20.1	2024-07-26T16:27:40.7636128	ReignOfSped/Recipes
 601b414653bff589969181eb8a0355eb56b2f6a8 data\reignofsped\recipes\supern_ingot.json
 4c78d0c7cb8e13cc82598867197f4dceeb5d6ba9 data\reignofsped\recipes\raw_phoen.json
 b47d43b66d1f24d509f295d3ac757defdfdc225a data\reignofsped\advancements\recipes\misc\phoen_ingot_from_blasting_phoen_ore.json
-7c67e27dfa1e6b126ca314ba11758035d33034eb data\reignofsped\recipes\blq_ingot.json
 4c87d606639eb346844aa37b38f8b98728211292 data\reignofsped\recipes\supern_ingot_from_smelting_raw_supern.json
+7c67e27dfa1e6b126ca314ba11758035d33034eb data\reignofsped\recipes\blq_ingot.json
 e99cc71c418835f4c60c34fb739c3b8cd23afac1 data\reignofsped\advancements\recipes\misc\dar_ingot_from_blasting_dar_ore.json
 acc1d1a6d9c89dc266f428a8d2a3b4059e3a2bc4 data\reignofsped\recipes\dar_ingot_from_blasting_raw_dar.json
 e00d25e73969fe9f6d6be5b599c25f17253664be data\reignofsped\advancements\recipes\misc\blq_ingot_from_smelting_raw_blq.json

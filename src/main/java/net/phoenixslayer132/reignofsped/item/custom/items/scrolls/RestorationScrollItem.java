@@ -29,7 +29,7 @@ public class RestorationScrollItem extends Item {
             List<PlayerEntity> list = world.getEntitiesByClass(PlayerEntity.class,
                     new Box(blockPos).expand(10.0, 5.0, 10.0),
                     LivingEntity :: isMobOrPlayer);
-            user.sendMessage(Text.literal("You and your teammates feel your cells regenerating at a quick pace as you unfurl and activate the scroll."));
+            user.sendMessage(Text.literal("You and your teammates feel your cells regenerating at a quick pace after you unfurled and activated the scroll."), true);
             for (PlayerEntity playerEntity : list){
                 if (playerEntity.getHealth() <= playerEntity.getMaxHealth()/3){
 

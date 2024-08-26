@@ -20,16 +20,16 @@ public class UnknownItem extends Item {
         if(!world.isClient()){
             double ran = Math.random() * 10;
             if (ran <= 3.0){
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 3000, 1));
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 3000, 3));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 300, 1));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 300, 3));
             } else if (ran <= 7.0) {
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.BAD_OMEN, 20000, 3));
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 10000, 2));
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 10000, 1));
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.LUCK, 5000, 1));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.BAD_OMEN, 2000, 3));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 1000, 2));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1000, 1));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.LUCK, 500, 1));
             }
             else if (ran > 7.0) {
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 20000, 3));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 2000, 3));
             }
         }
         return super.use(world, user, hand);

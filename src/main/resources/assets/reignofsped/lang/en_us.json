@@ -6,10 +6,20 @@
   "item.reignofsped.raw_blq": "Raw Blq",
   "item.reignofsped.raw_dar": "Raw Dar",
 
+  "item.reignofsped.phoen_ingot": "Phoen Ingot",
+  "item.reignofsped.supern_ingot": "Supern Ingot",
+  "item.reignofsped.blq_ingot": "Blq Ingot",
+  "item.reignofsped.dar_ingot": "Dar Ingot",
+
   "block.reignofsped.raw_phoen_block": "Block of Raw Phoen",
   "block.reignofsped.raw_supern_block": "Block of Raw Supern",
   "block.reignofsped.raw_blq_block": "Block of Raw Blq",
   "block.reignofsped.raw_dar_block": "Block of Raw Dar",
+
+  "block.reignofsped.phoen_block": "Block of Phoen",
+  "block.reignofsped.supern_block": "Block of Supern",
+  "block.reignofsped.blq_block": "Block of Blq",
+  "block.reignofsped.dar_block": "Block of Dar",
 
   "block.reignofsped.phoen_ore": "Phoen Ore",
   "block.reignofsped.supern_ore": "Supern Ore",

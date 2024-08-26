@@ -9,8 +9,8 @@
           "Name": "reignofsped:phoen_ore"
         },
         "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:magma_block"
+          "block": "minecraft:magma_block",
+          "predicate_type": "minecraft:block_match"
         }
       }
     ]

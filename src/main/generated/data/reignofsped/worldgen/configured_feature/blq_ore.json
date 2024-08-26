@@ -9,8 +9,8 @@
           "Name": "reignofsped:blq_ore"
         },
         "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:prismarine"
+          "block": "minecraft:prismarine",
+          "predicate_type": "minecraft:block_match"
         }
       }
     ]

@@ -32,13 +32,17 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
 
     public static final Block PHOEN_ORE = registerBlock("phoen_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.MAGMA_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.MAGMA_BLOCK).luminance((state) -> {
+                return 3;})));
     public static final Block SUPERN_ORE = registerBlock("supern_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block BLQ_ORE = registerBlock("blq_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.PRISMARINE)));
     public static final Block DAR_ORE = registerBlock("dar_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
+
+    public static final Block LINYURDS_RUNES_BLOCK = registerBlock("linyurds_runes_block",
+            new Block(FabricBlockSettings.create().collidable(true).breakInstantly().dropsNothing()));
 
     public static final Block LAMMOTH_PLANKS = registerBlock("lammoth_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS)));
